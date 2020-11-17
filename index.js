@@ -13,7 +13,7 @@ const questions = [
     {
         type: "input",
         name: "ProjectLink",
-        message: "Enter in the deployed project link:",
+        message: "Enter the deployed project link:",
     },
     {
         type: "input",
@@ -23,7 +23,7 @@ const questions = [
     {
         type: "input",
         name: "Demo",
-        message: "Provide Demo information (screenshots/gifs/videos will need to be inserted manually):",
+        message: "Provide Demo information (screenshots/gifs/videos will need to be inserted into the README.md manually):",
     },
     {
         type: "input",

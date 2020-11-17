@@ -2,16 +2,17 @@
 function generateMarkdown(data) {
   return `# ${data.Title}
   ${data.Description}
+  <br>
   ${data.ProjectLink}
   ## Table of Contents
-  * [Demo] (#demo)
-  * [Installation] (#installation)
-  * [Usage] (#usage)
-  * [License] (#license)
-  * [Contributing] (#contributing)
-  * [Testing] (#testing)
-  * [Developer Information] (#devInfo)
-  * [Credientials] (#credientials)
+  * [Demo](#demo)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Testing](#testing)
+  * [Developer's Information](#devInfo)
+  * [Credientials](#credientials)
+  * [License](#license)
   
   ## <a name="demo"></a>Demo
   ${data.Demo}
@@ -19,13 +20,11 @@ function generateMarkdown(data) {
   ${data.Installation}
   ## <a name="usage"></a>Usage
   ${data.Usage}
-  ## <a name="license">License</a>
-  ${data.License}
-  ## <a name="contributing">Contributing</a>
+  ## <a name="contributing"></a>Contributing
   ${data.Contributing}
-  ## <a name="testing">Testing</a>
+  ## <a name="testing"></a>Testing
   ${data.Testing}
-  ## <a name="devInfo">Developer Information</a>
+  ## <a name="devInfo"></a>Developer's Information
   Feel free to contact me using the information below if you have any questions or feedback!
   <br>
   Name: ${data.DeveloperInfo1}
@@ -33,8 +32,10 @@ function generateMarkdown(data) {
   Github Link: <${data.DeveloperInfo2}>
   <br>
   Email: <${data.DeveloperInfo3}>
-  ## <a name="credientials">Credientials</a>
+  ## <a name="credientials"></a>Credientials
   ${data.Credientials}
+  ## <a name="license"></a>License
+  ${data.License}
 `;
 }
 
