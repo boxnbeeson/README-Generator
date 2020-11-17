@@ -30,9 +30,9 @@ const questions = [
         message: "Enter the project's intended use information:",
     },
     {
-        type: "list",
+        type: "input",
         name: "License",
-        message: "Select a license:",
+        message: "Enter license information (For help choosing a license, visit https://choosealicense.com/): ",
     },
     {
         type: "input",
@@ -59,24 +59,36 @@ const questions = [
         name: "developerInfo3",
         message: "Enter in your email address:",
     },
+    {
+        type: "input",
+        name: "Credientials",
+        message: "List any information sources you would like to credit:",
+    },
     
 
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            return console.log(err);
+        } else {
+            console.log("Success!")
+        }
+    })
 }
 
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(data => {
- 
-  })
-  .catch(error => {
+        const genReadMe = genMarkdown(data);
+        writeToFile(fileName, genReadMe);
+  }).catch(error => {
     if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
+      console.log("Error! Code could not be read")
     } else {
-      // Something else when wrong
+      console.log("Success!")
     }
   });
 }
