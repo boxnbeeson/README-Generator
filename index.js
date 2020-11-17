@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const genMarkdown = require("./utils/generateMarkdown.js");
 const fs = require("fs");
+const genReadMe = "genREADME.md"
 
 // array of questions for user
 const questions = [
@@ -11,13 +12,18 @@ const questions = [
     },
     {
         type: "input",
-        name: "projectLink",
+        name: "ProjectLink",
         message: "Enter in the deployed project link:",
     },
     {
         type: "input",
         name: "Description",
         message: "Enter the project's description:",
+    },
+    {
+        type: "input",
+        name: "Demo",
+        message: "Provide Demo information (screenshots/gifs/videos will need to be inserted manually):",
     },
     {
         type: "input",
@@ -36,8 +42,8 @@ const questions = [
     },
     {
         type: "input",
-        name: "Contributions",
-        message: "Describe the project's contribution guidelines:",
+        name: "Contributing",
+        message: "Describe how someone may contribute (if available):",
     },
     {
         type: "input",
@@ -46,17 +52,17 @@ const questions = [
     },
     {
         type: "input",
-        name: "developerInfo1",
+        name: "DeveloperInfo1",
         message: "Enter in your full name:",
     },
     {
         type: "input",
-        name: "developerInfo2",
+        name: "DeveloperInfo2",
         message: "Enter in your gitHub profile link:",
     },
     {
         type: "input",
-        name: "developerInfo3",
+        name: "DeveloperInfo3",
         message: "Enter in your email address:",
     },
     {
@@ -82,8 +88,8 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(data => {
-        const genReadMe = genMarkdown(data);
-        writeToFile(fileName, genReadMe);
+        const information = genMarkdown(data);
+        writeToFile(genReadMe, information);
   }).catch(error => {
     if(error.isTtyError) {
       console.log("Error! Code could not be read")
