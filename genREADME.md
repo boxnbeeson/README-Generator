@@ -1,9 +1,7 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.Title}
-  ${data.Description}
+# jgf
+  jgfds
   <br>
-  ${data.ProjectLink}
+  dsjgfd
   ## Table of Contents
   * [Demo](#demo)
   * [Installation](#installation)
@@ -15,29 +13,24 @@ function generateMarkdown(data) {
   * [License](#license)
   
   ## <a name="demo"></a>Demo
-  ${data.Demo}
-  ![](insert screenshots/gifs here)
+  jgfds
   ## <a name="installation"></a>Installation
-  ${data.Installation}
+  jfd
   ## <a name="usage"></a>Usage
-  ${data.Usage}
+  sjgfd
   ## <a name="contributing"></a>Contributing
-  ${data.Contributing}
+  jhgfd
   ## <a name="testing"></a>Testing
-  ${data.Testing}
+  jgfd
   ## <a name="devInfo"></a>Developer's Information
   Feel free to contact me using the information below if you have any questions or feedback!
   <br>
-  Name: ${data.DeveloperInfo1}
+  Name: jgfd
   <br>
-  Github Link: <${data.DeveloperInfo2}>
+  Github Link: <hgrd>
   <br>
-  Email: <${data.DeveloperInfo3}>
+  Email: <jgfes>
   ## <a name="credientials"></a>Credientials
-  ${data.Credientials}
+  uytre
   ## <a name="license"></a>License
-  ${data.License}
-`;
-}
-
-module.exports = generateMarkdown;
+  sjgfds
