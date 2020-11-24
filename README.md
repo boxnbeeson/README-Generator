@@ -6,8 +6,6 @@
   * [Demo](#demo)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Testing](#testing)
   * [Developer's Information](#devInfo)
   * [Credientials](#credientials)
   * [License](#license)
