@@ -1,7 +1,7 @@
-# jgf
-  jgfds
+# Note Taker
+  A simple note taking application that allows the user to create, view, and delete notes.
   <br>
-  dsjgfd
+  https://warm-sierra-60665.herokuapp.com/
   ## Table of Contents
   * [Demo](#demo)
   * [Installation](#installation)
@@ -13,24 +13,25 @@
   * [License](#license)
   
   ## <a name="demo"></a>Demo
-  jgfds
+  (Provide in post)
+  ![](insert screenshots/gifs here)
   ## <a name="installation"></a>Installation
-  jfd
+  The live application requires no downloads. To run the application locally, node.js must be installed. The user will download node modules by running 'npm install' inside of the main folder's integrated terminal.
   ## <a name="usage"></a>Usage
-  sjgfd
+  (delete)
   ## <a name="contributing"></a>Contributing
-  jhgfd
+  (delete)
   ## <a name="testing"></a>Testing
-  jgfd
+  (delete)
   ## <a name="devInfo"></a>Developer's Information
   Feel free to contact me using the information below if you have any questions or feedback!
   <br>
-  Name: jgfd
+  Name: Jacob Beeson
   <br>
-  Github Link: <hgrd>
+  Github Link: <jpbeeson>
   <br>
-  Email: <jgfes>
+  Email: <beeson.jp@gmail.com>
   ## <a name="credientials"></a>Credientials
-  uytre
+  (in post)
   ## <a name="license"></a>License
-  sjgfds
+  Already provided

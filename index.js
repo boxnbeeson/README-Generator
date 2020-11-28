@@ -58,7 +58,7 @@ const questions = [
     {
         type: "input",
         name: "DeveloperInfo2",
-        message: "Enter in your gitHub profile link:",
+        message: "Enter in your gitHub profile username:",
     },
     {
         type: "input",
