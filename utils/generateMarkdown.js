@@ -30,7 +30,7 @@ function generateMarkdown(data) {
   <br>
   Name: ${data.DeveloperInfo1}
   <br>
-  Github Link: <${data.DeveloperInfo2}>
+  Github Link: github.com/<${data.DeveloperInfo2}>
   <br>
   Email: <${data.DeveloperInfo3}>
   ## <a name="credientials"></a>Credientials
