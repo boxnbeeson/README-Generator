@@ -39,11 +39,11 @@ function generateMarkdown(data) {
   ## <a name="contributing">Contributing</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
   ${data.Contributing}
 
-  ## <a name="credientials"></a>Credientials<sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  ## <a name="credientials">Credientials</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
 
   Don't forget to add and link all information sources!
 
-  ## <a name="license"></a>License<sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  ## <a name="license">License</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
   ${data.License}
 `;
 }
