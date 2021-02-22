@@ -8,47 +8,32 @@ const questions = [
     {
         type: "input",
         name: "Title",
-        message: "Enter the project's title:",
-    },
-    {
-        type: "input",
-        name: "ProjectLink",
-        message: "Enter the deployed project link:",
+        message: "What is the project's title?",
     },
     {
         type: "input",
         name: "Description",
-        message: "Enter the project's description:",
+        message: "What is the project's description?",
     },
     {
         type: "input",
-        name: "Demo",
-        message: "Provide Demo information (screenshots/gifs/videos will need to be inserted into the README.md manually):",
+        name: "ProjectLink",
+        message: "What is the project's livelink?",
     },
     {
         type: "input",
         name: "Installation",
-        message: "Enter the project's installation instructions:",
+        message: "What are the project's installation instructions?",
     },
     {
         type: "input",
-        name: "Usage",
-        message: "Enter the project's intended use information:",
-    },
-    {
-        type: "input",
-        name: "License",
-        message: "Enter license information (For help choosing a license, visit https://choosealicense.com/): ",
-    },
-    {
-        type: "input",
-        name: "Contributing",
-        message: "Describe how someone may contribute (if available):",
+        name: "Guide",
+        message: "Please provide proper instructions for using the application:",
     },
     {
         type: "input",
         name: "Testing",
-        message: "Enter any project testing information:",
+        message: "What are the project's testing instructions?",
     },
     {
         type: "input",
@@ -58,7 +43,7 @@ const questions = [
     {
         type: "input",
         name: "DeveloperInfo2",
-        message: "Enter in your gitHub profile username:",
+        message: "Enter in your gitHub profile:",
     },
     {
         type: "input",
@@ -67,8 +52,13 @@ const questions = [
     },
     {
         type: "input",
-        name: "Credientials",
-        message: "List any information sources you would like to credit:",
+        name: "Contributing",
+        message: "Describe how someone may contribute (if desired/applicable):",
+    },
+    {
+        type: "input",
+        name: "License",
+        message: "Enter license information (For help choosing a license, visit https://choosealicense.com/): ",
     },
     
 
@@ -80,7 +70,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         } else {
-            console.log("Success!")
+            console.log("Success! genREADME.md created. Don't forget to erase unused sections and the corresponding table of contents components! Also, make sure to fill out your credentials and add any necessary media!")
         }
     })
 }

@@ -1,36 +1,37 @@
-# Example README.md Project
-  This is a fake website, and fake project. This description is written to demonstrate that I can type stuff into the terminal and have it placed in a generated readme.md file.
+# Example README.md
+  ## Description
+  This is an example README.md to demonstrate how the README.md will appear after using the command line application.
   <br>
-  https://www.FakeProjectWebsite.com
-  ## Table of Contents
-  * [Demo](#demo)
+  Livelink: <i>This is where you would enter the project's livelink, or a tutorial video link.</i>
+
+  ## <a name="toc">Table of Contents</a>
   * [Installation](#installation)
-  * [Usage](#usage)
+  * [Guide](#guide)
   * [Contributing](#contributing)
-  * [Testing](#testing)
   * [Developer's Information](#devInfo)
   * [Credientials](#credientials)
+  * [Testing](#testing)
   * [License](#license)
   
-  ## <a name="demo"></a>Demo
-  No Demo is provided, as there is no project to demo.
-  ## <a name="installation"></a>Installation
-  To install the project, close your eyes. Imagine an amazing project. The BEST project you can ever imagine. Now, think of the opposite of that. That is this, because this project does not exist. 
-  ## <a name="usage"></a>Usage
-  The intended use of this project is to exist solely as an example.
-  ## <a name="contributing"></a>Contributing
-  To contribute, keep utilizing your imagination to create an example project in your happy place.
-  ## <a name="testing"></a>Testing
-  To test this project, imagine testing it. That should be sufficient.
-  ## <a name="devInfo"></a>Developer's Information
+  ## <a name="installation">Installation</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  <i>This is where you would enter the project's installation instructions.</i>
+  ## <a name="guide">Guide</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  <i>This is where you would enter the guide/instructions for the project.</i>
+  <br>
+  ![](insert screenshots/gifs here) <- Included to make it easy to insert images.
+  ## <a name="devInfo">Developer's Information</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
   Feel free to contact me using the information below if you have any questions or feedback!
   <br>
-  Name: Johnny Appleseed
+  Name: Example McGee
   <br>
-  Github Link: <github.com/JohnnyAppleseed>
+  [Portfolio]() <- link will be inserted here
   <br>
-  Email: <JohnnyAppleseed@email2me.org>
-  ## <a name="credientials"></a>Credientials
-  I would like to credit my imagination, as this example project is not based on anything that truly exists.
-  ## <a name="license"></a>License
-  MIT License
+  [Github]() <- link will be inserted here
+  <br>
+  Email: _ <- email will be placed here
+  ## <a name="credientials">Credientials</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  # Don't forget to add and link all information sources!
+  ## <a name="testing">Testing</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  <i>This is where you would enter testing information for an application.</i>
+  ## <a name="license">License</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  MIT

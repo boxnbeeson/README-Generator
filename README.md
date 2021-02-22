@@ -1,44 +1,52 @@
-# README-Generator
-  A CLI application utilizing node.js and inquirer to create simple, automated project README.md files. 
+# README Generator
+  A command line application designed to speed up the readme file creation process. 
   <br>
-  https://github.com/jpbeeson/README-Generator.git (application is ran through node, no deployable link to provide)
-  ## Table of Contents
-  * [Demo](#demo)
+  Livelink: []() <- Tutorial video will be placed here.
+
+  ## <a name="toc">Table of Contents</a>
   * [Installation](#installation)
-  * [Usage](#usage)
+  * [Guide](#guide)
   * [Developer's Information](#devInfo)
   * [Credientials](#credientials)
   * [License](#license)
   
-  ## <a name="demo"></a>Demo
-  Once setup is complete, the user may simply run the program by typing 'node index.js' into the main folder's terminal. The user will be asked multiple questions regarding the project they are creating a README.md for. Once the program is out of questions, the README.md will be automatically generated, and can be adjusted to the user's preference. If you would like to follow my guide, you can view my tutorial [video](https://youtu.be/34QGRu6J9O0)
+  ## <a name="installation">Installation</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  To install this application, you may download the code into a zip file, or clone the repository. If you do not know how to clone a repository, I suggest looking into this [GitHub Documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+  <br>
+  This command line application requires inquirer, which can be installed using the terminal prompt "npm install inquirer". To run the terminal command, one must also have Node.js, which can be installed [here](https://nodejs.org/en/) (for those new to coding, it is recommended to install the LTS version of node.)
+
+  ## <a name="guide">Guide</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  After dependencies have been installed, open up the main terminal for the project folder and run "node index.js". This will prompt the user with a series of questions that will fill in the generateMarkdown.js file. The generated readme will be created as "genREADME.md".
+  <br>
   ![](Assets/READMEGen.gif)
-  ## <a name="installation"></a>Installation
-  To install, the user will download the repository to their system. As the inquirer package is utilized, the user must start by installing this package (npm install inquirer). Once inquirer is finished installing into the program's folder, the user may run the program by typing 'node index.js'.
-  ## <a name="usage"></a>Usage
-  The intended usage for this program is to shorten the time it takes to create viable README.md for developers that have many projects to create in their future. 
-  ## <a name="devInfo"></a>Developer's Information
+
+  ## <a name="devInfo">Developer's Information</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
   Feel free to contact me using the information below if you have any questions or feedback!
   <br>
-  Name: Jacob Beeson
+  Name: Jacob(Jake) Beeson
   <br>
-  Github Link: <https://github.com/jpbeeson>
+  [Portfolio](https://boxnbeeson.github.io/Portfolio/)
   <br>
-  Email: <beeson.jp@gmail.com>
-  ## <a name="credientials"></a>Credientials
+  [Github](https://github.com/boxnbeeson)
+  <br>
+  Email: boxnbeeson.jp@gmail.com
+
+  ## <a name="credientials">Credientials</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
   Understanding Node.js:
   <br>
   [Node.js Documentation](https://nodejs.org/docs/latest/api/documentation.html)
   <br>
-  [Stackoverflow.com](https://stackoverflow.com/questions/2496710/writing-files-in-node-js)
+  [Writing Files in Node.js](https://stackoverflow.com/questions/2496710/writing-files-in-node-js)
   <br>
   Markdown help:
   <br>
-  [Markdownguide.org](https://www.markdownguide.org/cheat-sheet/)
+  [Markdownguide cheatsheet](https://www.markdownguide.org/cheat-sheet/)
   <br>
-  [community.atlassian.com](https://community.atlassian.com/t5/Bitbucket-questions/How-to-write-a-table-of-contents-in-a-Readme-md/qaq-p/673363)
+  [How to write a table of contents](https://community.atlassian.com/t5/Bitbucket-questions/How-to-write-a-table-of-contents-in-a-Readme-md/qaq-p/673363)
   <br>
-  [guides.github.com](https://guides.github.com/features/mastering-markdown/)
+  [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+  <br>
+  [How I created my "Table of Contents" footnote](https://meta.stackoverflow.com/questions/258597/formatting-footnotes)
   <br>
   Licenses:
   <br>
@@ -47,5 +55,6 @@
   Inquirer:
   <br>
   [Inquirer Documentation](https://www.npmjs.com/package/inquirer)
-  ## <a name="license"></a>License
-   MIT License
+
+  ## <a name="license">License</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  MIT

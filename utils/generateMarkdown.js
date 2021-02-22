@@ -3,39 +3,47 @@ function generateMarkdown(data) {
   return `# ${data.Title}
   ${data.Description}
   <br>
-  ${data.ProjectLink}
-  ## Table of Contents
-  * [Demo](#demo)
+  Livelink: ${data.ProjectLink}
+
+  ## <a name="toc">Table of Contents</a>
   * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing](#contributing)
+  * [Guide](#guide)
   * [Testing](#testing)
   * [Developer's Information](#devInfo)
+  * [Contributing](#contributing)
   * [Credientials](#credientials)
   * [License](#license)
   
-  ## <a name="demo"></a>Demo
-  ${data.Demo}
-  ![](insert screenshots/gifs here)
-  ## <a name="installation"></a>Installation
+
+
+  ## <a name="installation">Installation</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
   ${data.Installation}
-  ## <a name="usage"></a>Usage
-  ${data.Usage}
-  ## <a name="contributing"></a>Contributing
-  ${data.Contributing}
-  ## <a name="testing"></a>Testing
+
+  ## <a name="guide">Guide</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  ${data.Guide}
+  <br>
+  ![](insert screenshots/gifs here)
+
+  ## <a name="testing">Testing</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
   ${data.Testing}
-  ## <a name="devInfo"></a>Developer's Information
+
+  ## <a name="devInfo">Developer's Information</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
   Feel free to contact me using the information below if you have any questions or feedback!
   <br>
   Name: ${data.DeveloperInfo1}
   <br>
-  Github Link: <github.com/${data.DeveloperInfo2}>
+  [Github](https://github.com/${data.DeveloperInfo2})
   <br>
   Email: <${data.DeveloperInfo3}>
-  ## <a name="credientials"></a>Credientials
-  ${data.Credientials}
-  ## <a name="license"></a>License
+
+  ## <a name="contributing">Contributing</a><sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+  ${data.Contributing}
+
+  ## <a name="credientials"></a>Credientials<sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
+
+  Don't forget to add and link all information sources!
+
+  ## <a name="license"></a>License<sup><sup><sub>[Table of Contents](#toc)</sub></sup></sup>
   ${data.License}
 `;
 }
